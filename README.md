@@ -121,23 +121,23 @@ lib/
 ```bash
 git clone https://github.com/YOUR_USERNAME/mohamed12mosaad.git
 cd YOUR_REPOSITORY_NAME
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 flutter pub get
-3️⃣ Run the app
+### 3️⃣ Run the app
 flutter run
-🎯 Project Purpose
-Flutter UI design
+## 🎯 Project Purpose
+### Flutter UI design
 
-Form validation
+### Form validation
 
-Navigation system
+### Navigation system
 
-Reusable widgets
+### Reusable widgets
 
-Clean project structure
+### Clean project structure
 
-👨‍💻 Author
-<b>Mohamed Ramadan</b>
+##👨‍💻 Author
+<b>Mohamed Mosaad</b>
 Flutter Developer
 
 GitHub: https://github.com/mohamed12mosaad
