@@ -1,132 +1,144 @@
-#🛒 GreenMart - Authentication UI & Validation Demo
+<h1 align="center">🛒 GreenMart</h1>
 
+<h3 align="center">Authentication UI & Validation Demo</h3>
+
+<p align="center">
 A modern Flutter demo application that demonstrates a complete authentication UI flow including form validation, mobile verification, and OTP input.
+</p>
 
-This project focuses on building a clean, responsive, and reusable user interface without backend integration, making it ideal for learning Flutter UI architecture and navigation.
+<p align="center">
+Built with clean, responsive, and reusable UI components — without backend integration.
+</p>
 
-#🖼️ Screenshots
-##Welcome Screen	
+---
 
-##Login Screen	
+## 🖼️ Screenshots
 
-##Register Screen	
+<h3>Welcome Screen</h3>
+<p align="center">
+  <img src="screenshots/welcome.png" width="300">
+</p>
 
-##Mobile Verification	
+<h3>Login Screen</h3>
+<p align="center">
+  <img src="screenshots/login.png" width="300">
+</p>
 
-##OTP Verification	
+<h3>Register Screen</h3>
+<p align="center">
+  <img src="screenshots/register.png" width="300">
+</p>
 
-##Main Screen	
+<h3>Mobile Verification</h3>
+<p align="center">
+  <img src="screenshots/verify_mobile.png" width="300">
+</p>
 
+<h3>OTP Verification</h3>
+<p align="center">
+  <img src="screenshots/verify_code.png" width="300">
+</p>
 
-#🚀 Features
+<h3>Main Screen</h3>
+<p align="center">
+  <img src="screenshots/main.png" width="300">
+</p>
 
-##✅ Splash & Welcome screens (UI only)
+---
 
-##✅ Login form with validation
+## 🚀 Features
 
-##✅ Registration form with full input validation
+✔ Splash & Welcome screens (UI only)  
+✔ Login form with validation  
+✔ Registration form with full input validation  
+✔ Mobile number verification flow  
+✔ OTP input using **Pinput** package  
+✔ Smooth navigation between screens  
+✔ Reusable custom UI components  
+✔ Clean and responsive design  
 
-##✅ Mobile number verification flow
+---
 
-##✅ OTP input using Pinput package
+## 📱 App Screens
 
-##✅ Smooth navigation between screens
+### 🔹 Welcome Screen
+Introductory UI shown before authentication.
 
-##✅ Reusable custom UI components
+### 🔹 Login Screen
+- Email & password inputs  
+- Validation for empty or invalid fields  
 
-##✅ Clean and responsive design
+### 🔹 Register Screen
+- User registration form  
+- Custom reusable text fields  
+- Complete form validation  
 
-#📱 App Screens
-##🔹 Welcome Screen
+### 🔹 Verify Mobile Screen
+- Enter mobile number  
+- Validation before OTP request  
 
-###Introductory UI shown before authentication.
+### 🔹 Verify Code Screen
+- OTP input using **Pinput widget**  
+- Input validation  
+- onCompleted callback navigation  
 
-##🔹 Login Screen
+### 🔹 Main Screen
+Placeholder home screen displayed after successful verification.
 
-###Email & password inputs
+---
 
-###Validation for empty or invalid fields
+## 🛠️ Technologies Used
 
-##🔹 Register Screen
+- Flutter  
+- Dart  
+- Material Design  
+- Pinput (OTP input UI)
 
-###User registration form
+---
 
-###Custom reusable text fields
+## 📂 Project Structure
 
-###Complete form validation
-
-##🔹 Verify Mobile Screen
-
-###Enter mobile number
-
-###Validation before OTP request
-
-##🔹 Verify Code Screen
-
-###OTP input using Pinput widget
-
-###Input validation
-
-###onCompleted callback navigation
-
-##🔹 Main Screen
-
-###Placeholder home screen displayed after successful verification.
-
-#🛠️ Technologies Used
-
-##Flutter
-
-##Dart
-
-##Material Design
-
-##Pinput (OTP input UI)
-
-#📂 Project Structure
 lib/
 │
 ├── core/
-│   ├── functions/
-│   ├── styles/
-│   └── widgets/
+│ ├── functions/
+│ ├── styles/
+│ └── widgets/
 │
 ├── features/
-│   └── auth/
-│       ├── screens/
-│       └── widgets/
+│ └── auth/
+│ ├── screens/
+│ └── widgets/
 │
 └── main.dart
 
-#📦 Getting Started
-##1️⃣ Clone the repository
+
+---
+
+## 📦 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/YOUR_USERNAME/mohamed12mosaad.git
 cd YOUR_REPOSITORY_NAME
-
-##2️⃣ Install dependencies
+2️⃣ Install dependencies
 flutter pub get
-
-##3️⃣ Run the app
+3️⃣ Run the app
 flutter run
+🎯 Project Purpose
+Flutter UI design
 
-#🎯 Project Purpose
+Form validation
 
-##This project was built to practice:
-
-##Flutter UI design
-
-##Form validation
-
-##Navigation system
+Navigation system
 
 Reusable widgets
 
-##Clean project structure
+Clean project structure
 
-#👨‍💻 Author
-
-Mohamed Mosaad
+👨‍💻 Author
+<b>Mohamed Ramadan</b>
 Flutter Developer
 
-🔗 GitHub: https://github.com/mohamed12mosaad
+GitHub: https://github.com/mohamed12mosaad
 
