@@ -26,9 +26,8 @@ Built with clean, responsive, and reusable UI components — without backend int
   <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20134805.png" width="300">
 </p>
 
-<h3>Mobile Verification</h3>
 <p align="center">
-  <img src="screenshots/verify_mobile.png" width="300">
+  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20134928.png" width="300">
 </p>
 
 <h3>OTP Verification</h3>
