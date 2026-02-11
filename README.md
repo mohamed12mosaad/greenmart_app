@@ -84,7 +84,7 @@ Placeholder home screen displayed after successful verification.
 ---
 
 ## 📂 Project Structure
----
+```
 lib/
 │
 ├── core/
@@ -98,6 +98,9 @@ lib/
 │ └── widgets/
 │
 └── main.dart
+```
+
+---
 
 
 ---
@@ -106,26 +109,6 @@ lib/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/mohamed12mosaad.git
-cd YOUR_REPOSITORY_NAME
-2️⃣ Install dependencies
-flutter pub get
-3️⃣ Run the app
-flutter run
-🎯 Project Purpose
-Flutter UI design
-
-Form validation
-
-Navigation system
-
-Reusable widgets
-
-Clean project structure
-
-👨‍💻 Author
-<b>Mohamed Mosaad</b>
-Flutter Developer
-
-GitHub: https://github.com/mohamed12mosaad
+git clone https://github.com/mohamed12mosaad/greenmart_app.git
+cd greenmart_app
 
