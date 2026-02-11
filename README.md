@@ -84,7 +84,7 @@ Placeholder home screen displayed after successful verification.
 ---
 
 ## 📂 Project Structure
-
+---
 lib/
 │
 ├── core/
