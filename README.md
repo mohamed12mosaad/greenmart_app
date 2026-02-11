@@ -14,7 +14,6 @@ Built with clean, responsive, and reusable UI components — without backend int
 
 ## 🖼️ Screenshots
 
-<h3>Welcome Screen</h3>
 <p align="center">
   <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-09%20133653.png" width="300">
 </p>
