@@ -2,11 +2,11 @@
 
 <h3 align="center">Authentication UI & Validation Demo</h3>
 
-<p align="center">
+<p>
 A modern Flutter demo application that demonstrates a complete authentication UI flow including form validation, mobile verification, and OTP input.
 </p>
 
-<p align="center">
+<p>
 Built with clean, responsive, and reusable UI components — without backend integration.
 </p>
 
@@ -14,30 +14,22 @@ Built with clean, responsive, and reusable UI components — without backend int
 
 ## 🖼️ Screenshots
 
-<p align="center">
-  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-09%20133653.png" width="300">
-</p>
+<div align="center" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
 
-<p align="center">
-  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-09%20133720.png" width="300">
-</p>
+  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-09%20133653.png" width="250">
 
-<p align="center">
-  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20134805.png" width="300">
-</p>
+  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-09%20133720.png" width="250">
 
-<p align="center">
-  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20134928.png" width="300">
-</p>
+  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20134805.png" width="250">
 
-<p align="center">
-  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20135000.png" width="300">
-</p>
+  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20134928.png" width="250">
 
-<h3>Main Screen</h3>
-<p align="center">
-  <img src="screenshots/main.png" width="300">
-</p>
+  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20135000.png" width="250">
+
+  <img src="https://github.com/mohamed12mosaad/greenmart_app/blob/main/screenshots/Screenshot%202026-02-11%20135035.png" width="250">
+
+</div>
+
 
 ---
 
@@ -116,22 +108,22 @@ lib/
 ```bash
 git clone https://github.com/YOUR_USERNAME/mohamed12mosaad.git
 cd YOUR_REPOSITORY_NAME
-### 2️⃣ Install dependencies
+2️⃣ Install dependencies
 flutter pub get
-### 3️⃣ Run the app
+3️⃣ Run the app
 flutter run
-## 🎯 Project Purpose
-### Flutter UI design
+🎯 Project Purpose
+Flutter UI design
 
-### Form validation
+Form validation
 
-### Navigation system
+Navigation system
 
-### Reusable widgets
+Reusable widgets
 
-### Clean project structure
+Clean project structure
 
-##👨‍💻 Author
+👨‍💻 Author
 <b>Mohamed Mosaad</b>
 Flutter Developer
 
