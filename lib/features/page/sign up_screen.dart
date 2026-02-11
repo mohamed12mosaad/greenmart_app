@@ -1,0 +1,159 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:greenmart_app/core/constants/app_image.dart';
+import 'package:greenmart_app/core/functions/navigations.dart';
+import 'package:greenmart_app/core/styles/colors.dart';
+import 'package:greenmart_app/core/styles/text_style.dart';
+import 'package:greenmart_app/core/widgets/custem_password_form_field.dart';
+import 'package:greenmart_app/core/widgets/custem_text_form_fielf.dart';
+import 'package:greenmart_app/core/widgets/main_button.dart';
+import 'package:greenmart_app/features/page/login_screen.dart';
+import 'package:greenmart_app/features/page/number_screen.dart';
+
+class SinghupScreen extends StatefulWidget {
+  const SinghupScreen({super.key});
+
+  @override
+  State<SinghupScreen> createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<SinghupScreen> {
+
+  final FormKey = GlobalKey <FormState> ();
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(30),
+          child: SingleChildScrollView(
+            child: Form(
+              key: FormKey,
+              autovalidateMode: AutovalidateMode.onUnfocus,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Align(
+                    alignment: Alignment.center,
+                    child: SvgPicture.asset(AppImage.carrotSvg),
+                  ),
+                  SizedBox(height: 40),
+                  Text('Sign Up', style: AppTextStyles.title),
+                  SizedBox(height: 16),
+                  Text(
+                    'Enter your credentials to continue',
+                    style: AppTextStyles.caption.copyWith(
+                      color: AppColors.geryColor,
+                    ),
+                  ),
+                  SizedBox(height: 40),
+                  Text(
+                    'Name',
+                    style: AppTextStyles.caption.copyWith(
+                      color: AppColors.geryColor,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  CustomTextFormField(
+                    keyboardType: TextInputType.emailAddress,
+                    hintText: 'Mohamed Mosaad',
+                    validator: (value){
+                      if (value == null || value.isEmpty){
+                        return 'Please enter your name';
+                      }
+                      return null;
+                    },
+                    ),
+                  SizedBox(height: 40),
+                  Text(
+                    'Email',
+                    style: AppTextStyles.caption.copyWith(
+                      color: AppColors.geryColor,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  CustomTextFormField(
+                    keyboardType: TextInputType.emailAddress,
+                    hintText: 'example@gmail.com',
+                    validator: (value){
+                      if (value == null || value.isEmpty){
+                        return 'Please enter your e-mail';
+                      }else if (!value.contains('@')  && !value.contains('gmail') && !value.contains('.com')){
+                        return 'Please enter a valid e-mail';
+                      }
+                      return null;
+                    },
+                    ),
+                  SizedBox(height: 40),
+                  Text(
+                    'Password',
+                    style: AppTextStyles.caption.copyWith(
+                      color: AppColors.geryColor,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  SizedBox(height: 15),
+                  CustomPasswordFormField(
+                    keyboardType: TextInputType.visiblePassword,
+                    hintText: '*************',
+                    validator: (value){
+                      if (value == null || value.isEmpty){
+                        return 'please enter your password';
+                      }else if (value.length < 6){
+                        return 'Password must be at least 6 characters';
+                      }
+                      return null;
+                    },
+                    ),
+                  SizedBox(height: 40),
+                  MainButton(
+                    text: 'Sign Up',
+                    onPress: () {
+                      if (FormKey.currentState!.validate()){
+                        pushTo(context, NumberScreen());
+                      }
+                    },
+                    textStyle: AppTextStyles.body.copyWith(
+                      color: AppColors.whiteColor,
+                    ),
+                  ),
+                  SizedBox(height: 25),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Already have an account?',
+                        style: AppTextStyles.caption.copyWith(
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      TextButton(
+                        style: TextButton.styleFrom(
+                          padding: EdgeInsets.zero,
+                        ),
+                        onPressed: () {
+                          pushTo(context, LoginScreen());
+                        },
+                        child: Text(
+                          'Login',
+                          style: AppTextStyles.caption.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
