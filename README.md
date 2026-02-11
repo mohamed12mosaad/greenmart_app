@@ -1,16 +1,129 @@
-# greenmart_app
+🛒 GreenMart - Authentication UI & Validation Demo
 
-A new Flutter project.
+A modern Flutter demo application that demonstrates a complete authentication UI flow including form validation, mobile verification, and OTP input.
 
-## Getting Started
+This project focuses on building a clean, responsive, and reusable user interface without backend integration, making it ideal for learning Flutter UI architecture and navigation.
 
-This project is a starting point for a Flutter application.
+🖼️ Screenshots
+Welcome Screen
 
-A few resources to get you started if this is your first Flutter project:
+Login Screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Register Screen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Mobile Verification
+
+OTP Verification
+
+Main Screen
+
+⚠️ If image names are different — just replace the file names above.
+
+🚀 Features
+
+✅ Splash & Welcome screens (UI only)
+✅ Login form with validation
+✅ Registration form with full input validation
+✅ Mobile number verification flow
+✅ OTP input using Pinput package
+✅ Smooth navigation between screens
+✅ Reusable custom UI components
+✅ Clean and responsive design
+
+📱 App Screens
+🔹 Welcome Screen
+
+Introductory UI shown before authentication.
+
+🔹 Login Screen
+
+Email & password inputs
+
+Validation for empty or invalid fields
+
+🔹 Register Screen
+
+User registration form
+
+Custom reusable text fields
+
+Complete form validation
+
+🔹 Verify Mobile Screen
+
+Enter mobile number
+
+Validation before OTP request
+
+🔹 Verify Code Screen
+
+OTP input using Pinput widget
+
+Input validation
+
+onCompleted callback navigation
+
+🔹 Main Screen
+
+Placeholder home screen displayed after successful verification.
+
+🛠️ Technologies Used
+
+Flutter
+
+Dart
+
+Material Design
+
+Pinput (OTP input UI)
+
+📂 Project Structure
+lib/
+│
+├── core/
+│   ├── functions/
+│   ├── styles/
+│   └── widgets/
+│
+├── features/
+│   └── auth/
+│       ├── screens/
+│       └── widgets/
+│
+└── main.dart
+
+📦 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+cd YOUR_REPOSITORY_NAME
+
+2️⃣ Install dependencies
+flutter pub get
+
+3️⃣ Run the app
+flutter run
+
+🎯 Project Purpose
+
+This project was built to practice:
+
+Flutter UI design
+
+Form validation
+
+Navigation system
+
+Reusable widgets
+
+Clean project structure
+
+👨‍💻 Author
+
+Mohamed Ramadan
+Flutter Developer
+
+GitHub: https://github.com/YOUR_USERNAME
+
+⭐ Support
+
+If you like this project, please give it a star ⭐ on GitHub.
