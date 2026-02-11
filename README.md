@@ -1,83 +1,89 @@
-🛒 GreenMart - Authentication UI & Validation Demo
+#🛒 GreenMart - Authentication UI & Validation Demo
 
 A modern Flutter demo application that demonstrates a complete authentication UI flow including form validation, mobile verification, and OTP input.
 
 This project focuses on building a clean, responsive, and reusable user interface without backend integration, making it ideal for learning Flutter UI architecture and navigation.
 
-🖼️ Screenshots
-Welcome Screen
+#🖼️ Screenshots
+##Welcome Screen	
 
-Login Screen
+##Login Screen	
 
-Register Screen
+##Register Screen	
 
-Mobile Verification
+##Mobile Verification	
 
-OTP Verification
+##OTP Verification	
 
-Main Screen
+##Main Screen	
 
-⚠️ If image names are different — just replace the file names above.
 
-🚀 Features
+#🚀 Features
 
-✅ Splash & Welcome screens (UI only)
-✅ Login form with validation
-✅ Registration form with full input validation
-✅ Mobile number verification flow
-✅ OTP input using Pinput package
-✅ Smooth navigation between screens
-✅ Reusable custom UI components
-✅ Clean and responsive design
+##✅ Splash & Welcome screens (UI only)
 
-📱 App Screens
-🔹 Welcome Screen
+##✅ Login form with validation
 
-Introductory UI shown before authentication.
+##✅ Registration form with full input validation
 
-🔹 Login Screen
+##✅ Mobile number verification flow
 
-Email & password inputs
+##✅ OTP input using Pinput package
 
-Validation for empty or invalid fields
+##✅ Smooth navigation between screens
 
-🔹 Register Screen
+##✅ Reusable custom UI components
 
-User registration form
+##✅ Clean and responsive design
 
-Custom reusable text fields
+#📱 App Screens
+##🔹 Welcome Screen
 
-Complete form validation
+###Introductory UI shown before authentication.
 
-🔹 Verify Mobile Screen
+##🔹 Login Screen
 
-Enter mobile number
+###Email & password inputs
 
-Validation before OTP request
+###Validation for empty or invalid fields
 
-🔹 Verify Code Screen
+##🔹 Register Screen
 
-OTP input using Pinput widget
+###User registration form
 
-Input validation
+###Custom reusable text fields
 
-onCompleted callback navigation
+###Complete form validation
 
-🔹 Main Screen
+##🔹 Verify Mobile Screen
 
-Placeholder home screen displayed after successful verification.
+###Enter mobile number
 
-🛠️ Technologies Used
+###Validation before OTP request
 
-Flutter
+##🔹 Verify Code Screen
 
-Dart
+###OTP input using Pinput widget
 
-Material Design
+###Input validation
 
-Pinput (OTP input UI)
+###onCompleted callback navigation
 
-📂 Project Structure
+##🔹 Main Screen
+
+###Placeholder home screen displayed after successful verification.
+
+#🛠️ Technologies Used
+
+##Flutter
+
+##Dart
+
+##Material Design
+
+##Pinput (OTP input UI)
+
+#📂 Project Structure
 lib/
 │
 ├── core/
@@ -92,38 +98,35 @@ lib/
 │
 └── main.dart
 
-📦 Getting Started
-1️⃣ Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+#📦 Getting Started
+##1️⃣ Clone the repository
+git clone https://github.com/YOUR_USERNAME/mohamed12mosaad.git
 cd YOUR_REPOSITORY_NAME
 
-2️⃣ Install dependencies
+##2️⃣ Install dependencies
 flutter pub get
 
-3️⃣ Run the app
+##3️⃣ Run the app
 flutter run
 
-🎯 Project Purpose
+#🎯 Project Purpose
 
-This project was built to practice:
+##This project was built to practice:
 
-Flutter UI design
+##Flutter UI design
 
-Form validation
+##Form validation
 
-Navigation system
+##Navigation system
 
 Reusable widgets
 
-Clean project structure
+##Clean project structure
 
-👨‍💻 Author
+#👨‍💻 Author
 
-Mohamed Ramadan
+Mohamed Mosaad
 Flutter Developer
 
-GitHub: https://github.com/YOUR_USERNAME
+🔗 GitHub: https://github.com/mohamed12mosaad
 
-⭐ Support
-
-If you like this project, please give it a star ⭐ on GitHub.
