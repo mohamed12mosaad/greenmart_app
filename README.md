@@ -1,12 +1,12 @@
-<h1 align="center">🛒 GreenMart</h1>
+<h1 align="start">🛒 GreenMart</h1>
 
-<h3 align="center">Complete UI, Navigation & Validation Demo</h3>
+<h3 align="start">Complete UI, Navigation & Validation Demo</h3>
 
-<p align="center">
+<p align="start">
 A modern Flutter demo application that showcases a full shopping app UI experience including authentication flow, form validation, OTP verification, and multi-screen navigation.
 </p>
 
-<p align="center">
+<p align="start">
 Built with clean, responsive, and reusable UI components — without backend integration.
 </p>
 
@@ -48,6 +48,7 @@ Built with clean, responsive, and reusable UI components — without backend int
 ✔ Order confirmation UI
 ✔ Search and filtering interfaces
 ✔ Multiple home and discovery screens
+
 
 ---
 
