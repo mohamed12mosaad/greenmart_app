@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:greenmart_app/core/styles/colors.dart';
 import 'package:pinput/pinput.dart';
 
 class PinPut extends StatefulWidget {
-  const PinPut({super.key, this.validator});
+  const PinPut({super.key, this.validator, required this.length});
 
   final String? Function(String?)? validator;
+  final int length;
 
   @override
   State<PinPut> createState() => _PinPutState();
@@ -23,7 +25,13 @@ class _PinPutState extends State<PinPut> {
   Widget buildPinPut() {
     return Pinput(
       controller: pinController,
-      length: 5,
+      length: widget.length,
+      keyboardType: TextInputType.number, 
+      
+      inputFormatters: [
+        FilteringTextInputFormatter.digitsOnly,
+      ],
+      
       onCompleted: (pin) => print('Entered PIN: $pin'),
       defaultPinTheme: PinTheme(
         width: 60,
@@ -41,5 +49,5 @@ class _PinPutState extends State<PinPut> {
   @override
   Widget build(BuildContext context) {
     return buildPinPut();
-}
+  }
 }

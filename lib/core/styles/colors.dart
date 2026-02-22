@@ -11,4 +11,5 @@ class AppColors {
   static const Color redColor = Color(0xffEB5757);
   static const Color TangoNormalColor = Color(0xffF37A20);
   static const Color BlackMediumColor = Color(0xff37474FB8);
+  static const Color borderColor = Color(0xffE2E2E2);
 }

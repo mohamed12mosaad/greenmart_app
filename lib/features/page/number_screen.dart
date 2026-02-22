@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:greenmart_app/core/functions/navigations.dart';
+import 'package:greenmart_app/core/constants/functions/navigations.dart';
 import 'package:greenmart_app/core/styles/colors.dart';
 import 'package:greenmart_app/core/styles/text_style.dart';
-import 'package:greenmart_app/core/widgets/custem_text_form_fielf.dart';
-import 'package:greenmart_app/core/widgets/main_button.dart';
+import 'package:greenmart_app/core/styles/widgets/custem_text_form_fielf.dart';
+import 'package:greenmart_app/core/styles/widgets/main_button.dart';
 import 'package:greenmart_app/features/page/sign%20up_screen.dart';
 import 'package:greenmart_app/features/page/verification_screen.dart';
 
@@ -15,9 +15,7 @@ class NumberScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<NumberScreen> {
-
-  final FormKey = GlobalKey <FormState> ();
-
+  final FormKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +26,8 @@ class _LoginScreenState extends State<NumberScreen> {
           onPressed: () {
             PopTo(context, SinghupScreen());
           },
-          child: Icon(Icons.arrow_back_ios_new,color: AppColors.blackColor,)),
+          child: Icon(Icons.arrow_back_ios_new, color: AppColors.blackColor),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(30),
@@ -44,7 +43,7 @@ class _LoginScreenState extends State<NumberScreen> {
                 Text(
                   'Enter your mobile number',
                   style: AppTextStyles.title.copyWith(
-                    fontWeight: FontWeight.w700
+                    fontWeight: FontWeight.w700,
                   ),
                 ),
                 SizedBox(height: 16),
@@ -57,24 +56,28 @@ class _LoginScreenState extends State<NumberScreen> {
                 ),
                 SizedBox(height: 40),
                 CustomTextFormField(
+                  enabled: true,
                   keyboardType: TextInputType.phone,
                   hintText: '01xxxxxxxxx',
-                  validator: (value){
-                    if (value == null || value.isEmpty){
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
                       return 'Please enter number';
-                    }else if (value.length != 11){
+                    } else if (value.length != 11) {
                       return 'Number must be 11 digits';
-                    }else if (!value.startsWith('011') && !value.startsWith('012') && !value.startsWith('010') && !value.startsWith('015')){
-                      return'Number must start three digits with 011 or 012 or \n 015 or \n 010';
+                    } else if (!value.startsWith('011') &&
+                        !value.startsWith('012') &&
+                        !value.startsWith('010') &&
+                        !value.startsWith('015')) {
+                      return 'Number must start three digits with 011 or 012 or \n 015 or \n 010';
                     }
                     return null;
                   },
-                  ),
+                ),
                 SizedBox(height: 40),
                 MainButton(
                   text: 'Next',
                   onPress: () {
-                    if (FormKey.currentState!.validate()){
+                    if (FormKey.currentState!.validate()) {
                       pushTo(context, VerificationScreen());
                     }
                   },

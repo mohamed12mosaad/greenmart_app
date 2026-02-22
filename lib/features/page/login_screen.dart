@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:greenmart_app/core/constants/app_image.dart';
-import 'package:greenmart_app/core/functions/navigations.dart';
+import 'package:greenmart_app/core/constants/functions/navigations.dart';
 import 'package:greenmart_app/core/styles/colors.dart';
 import 'package:greenmart_app/core/styles/text_style.dart';
-import 'package:greenmart_app/core/widgets/custem_password_form_field.dart';
-import 'package:greenmart_app/core/widgets/custem_text_form_fielf.dart';
-import 'package:greenmart_app/core/widgets/main_button.dart';
+import 'package:greenmart_app/core/styles/widgets/custem_password_form_field.dart';
+import 'package:greenmart_app/core/styles/widgets/custem_text_form_fielf.dart';
+import 'package:greenmart_app/core/styles/widgets/main_button.dart';
+import 'package:greenmart_app/features/page/number_screen.dart';
 import 'package:greenmart_app/features/page/sign%20up_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -58,6 +59,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   SizedBox(height: 10),
                   CustomTextFormField(
+                    enabled: true,
                     keyboardType: TextInputType.emailAddress,
                     hintText: 'example@gmail.com',
                     validator: (value){
@@ -101,8 +103,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         onPressed: () {},
                         child: Text(
                           'Forget Password?',
-                          style: AppTextStyles.caption.copyWith(
-                          ),
+                          style: AppTextStyles.caption.copyWith(color: AppColors.blackColor),
                         ),
                       ),
                     ],
@@ -111,7 +112,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   MainButton(
                     text: 'Log In',
                     onPress: () {
-                      if (FormKey.currentState!.validate());
+                      if (FormKey.currentState!.validate()){
+                        pushTo(context, NumberScreen());
+                      }
                     },
                     textStyle: AppTextStyles.body.copyWith(
                       color: AppColors.whiteColor,

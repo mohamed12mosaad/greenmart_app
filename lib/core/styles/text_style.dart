@@ -23,4 +23,8 @@ class AppTextStyles {
   static const TextStyle caption = TextStyle(
     fontSize: 14,
   );
+
+  static const TextStyle small = TextStyle(
+    fontSize: 12,
+  );
 }

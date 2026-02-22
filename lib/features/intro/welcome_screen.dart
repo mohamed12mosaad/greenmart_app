@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:greenmart_app/core/constants/app_image.dart';
-import 'package:greenmart_app/core/functions/navigations.dart';
+import 'package:greenmart_app/core/constants/functions/navigations.dart';
 import 'package:greenmart_app/core/styles/colors.dart';
 import 'package:greenmart_app/core/styles/text_style.dart';
-import 'package:greenmart_app/core/widgets/main_button.dart';
+import 'package:greenmart_app/core/styles/widgets/main_button.dart';
 import 'package:greenmart_app/features/page/login_screen.dart';
 
 

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:greenmart_app/core/constants/app_image.dart';
-import 'package:greenmart_app/core/functions/navigations.dart';
+import 'package:greenmart_app/core/constants/functions/navigations.dart';
 import 'package:greenmart_app/core/styles/colors.dart';
 import 'package:greenmart_app/core/styles/text_style.dart';
-import 'package:greenmart_app/core/widgets/custem_password_form_field.dart';
-import 'package:greenmart_app/core/widgets/custem_text_form_fielf.dart';
-import 'package:greenmart_app/core/widgets/main_button.dart';
+import 'package:greenmart_app/core/styles/widgets/custem_password_form_field.dart';
+import 'package:greenmart_app/core/styles/widgets/custem_text_form_fielf.dart';
+import 'package:greenmart_app/core/styles/widgets/main_button.dart';
 import 'package:greenmart_app/features/page/login_screen.dart';
 import 'package:greenmart_app/features/page/number_screen.dart';
 
@@ -59,7 +59,8 @@ class _LoginScreenState extends State<SinghupScreen> {
                   ),
                   SizedBox(height: 10),
                   CustomTextFormField(
-                    keyboardType: TextInputType.emailAddress,
+                    enabled: true,
+                    keyboardType: TextInputType.text,
                     hintText: 'Mohamed Mosaad',
                     validator: (value){
                       if (value == null || value.isEmpty){
@@ -78,6 +79,7 @@ class _LoginScreenState extends State<SinghupScreen> {
                   ),
                   SizedBox(height: 10),
                   CustomTextFormField(
+                    enabled: true,
                     keyboardType: TextInputType.emailAddress,
                     hintText: 'example@gmail.com',
                     validator: (value){

@@ -22,7 +22,7 @@ class CustomPasswordFormField extends StatefulWidget {
 }
 
 class _CustomPasswordFormFieldState extends State<CustomPasswordFormField> {
-  bool obscureText = false;
+  bool obscureText = true;
 
   @override
   Widget build(BuildContext context) {
