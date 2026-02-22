@@ -22,7 +22,8 @@ Built with clean, responsive, and reusable UI components — without backend int
 <img src="https://raw.githubusercontent.com/mohamed12mosaad/greenmart_app/main/screenshots/Screenshot%202026-02-22%20171024.png" width="250">
 <img src="https://raw.githubusercontent.com/mohamed12mosaad/greenmart_app/main/screenshots/Screenshot%202026-02-22%20171139.png" width="250">
 <img src="https://raw.githubusercontent.com/mohamed12mosaad/greenmart_app/main/screenshots/Screenshot%202026-02-11%20135035.png" width="250">
-<img src="https://raw.githubusercontent.com/mohamed12mosaad/greenmart_app/main/screenshots/Screenshot%202026-02-22%20185325.png" width="250">
+<img src="https://raw.githubusercontent.com/mohamed12mosaad/greenmart_app/main/screenshots/Screenshot%202026-02-22%20185325.png" 
+style="width:250px; height:250px; object-fit:cover;">
 <img src="https://raw.githubusercontent.com/mohamed12mosaad/greenmart_app/main/screenshots/Screenshot%202026-02-22%20185903.png" width="250">
 <img src="https://raw.githubusercontent.com/mohamed12mosaad/greenmart_app/main/screenshots/Screenshot%202026-02-22%20185713.png" width="250">
 <img src="https://raw.githubusercontent.com/mohamed12mosaad/greenmart_app/main/screenshots/Screenshot%202026-02-22%20185748.png" width="250">
