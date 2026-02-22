@@ -36,18 +36,18 @@ Built with clean, responsive, and reusable UI components — without backend int
 
 ## 🚀 Features
 
-✔ Splash & Welcome screens (UI only)
-✔ Login & Registration forms with full validation
-✔ Mobile number verification flow
-✔ OTP input using **Pinput** package
-✔ Smooth navigation between screens
-✔ Reusable custom UI components
-✔ Clean and responsive Material UI
-✔ Product browsing and detailed views
-✔ Cart management & checkout flow
-✔ Order confirmation UI
-✔ Search and filtering interfaces
-✔ Multiple home and discovery screens
+- ✔ Splash & Welcome screens (UI only)
+- ✔ Login & Registration forms with full validation
+- ✔ Mobile number verification flow
+- ✔ OTP input using **Pinput** package
+- ✔ Smooth navigation between screens
+- ✔ Reusable custom UI components
+- ✔ Clean and responsive Material UI
+- ✔ Product browsing and detailed views
+- ✔ Cart management & checkout flow
+- ✔ Order confirmation UI
+- ✔ Search and filtering interfaces
+- ✔ Multiple home and discovery screens
 
 
 ---
