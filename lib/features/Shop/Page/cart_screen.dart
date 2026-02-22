@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:greenmart_app/core/styles/colors.dart';
 import 'package:greenmart_app/core/styles/text_style.dart';
 import 'package:greenmart_app/core/styles/widgets/main_button.dart';
 import 'package:greenmart_app/features/Shop/widgets/build_card_item.dart';
@@ -34,16 +33,39 @@ class CartScreen extends StatelessWidget {
       ),
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(25),
-        child: MainButton(
-          textStyle: TextStyle(
-            color: AppColors.whiteColor,
-            fontWeight: FontWeight.w600,
-            fontSize: 18,
-          ),
-          text: 'Go to Checkout',
-          onPress: () {
-            ShowCheckoutBottomSheet(context);
-          },
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            MainButton(
+              textStyle: const TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w600,
+                fontSize: 18,
+              ),
+              text: 'Go to Checkout',
+              onPress: () {
+                ShowCheckoutBottomSheet(context);
+              },
+            ),
+            Positioned(
+              right: 15,
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(
+                  color: Colors.black.withOpacity(0.15),
+                  borderRadius: BorderRadius.circular(4),
+                ),
+                child: const Text(
+                  '\$12.96',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
